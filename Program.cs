@@ -1,7 +1,14 @@
+using MeBlog.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//registering middleware, services, authentication and adding DbContext and everything else into the Program.cs file
+builder.Services.AddDbContext<BlogContext>(options => options.UseSqlServer(
+builder.Configuration.GetConnectionString("BlogDb")
+));
 
 var app = builder.Build();
 
