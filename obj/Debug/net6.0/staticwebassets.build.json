@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K7gZZwtxKtywZIUkOq6Q8jRBb90PCmGiEiFRJmZ9zpY=",
+  "Hash": "Ptez/JpyikiYFilf9HtCTai+yzvZMshB3gd8Vf5W7nI=",
   "Source": "MeBlog",
   "BasePath": "_content/MeBlog",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\0410145807.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\MeBlog\\wwwroot\\img\\1217152956.png",
+      "SourceId": "MeBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MeBlog\\wwwroot\\",
+      "BasePath": "_content/MeBlog",
+      "RelativePath": "img/1217152956.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1217152956.png"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\MeBlog\\wwwroot\\img\\about-bg.jpg",
