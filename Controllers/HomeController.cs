@@ -17,11 +17,21 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var list = _context.Blog.Take(4).OrderByDescending(x => x.CreateTime).ToList();//display 4 blogs (able to be modified)
+        var list = _context.Blog.Take(4).Where(b => b.IsPublish).OrderByDescending(x => x.CreateTime).ToList();//display 4 blogs (able to be modified)
         foreach (var blog in list){
             blog.Author = _context.Author.Find(blog.AuthorId);//id si verilen yazari blog'un yazarina ekliyor
         }
         return View(list);
+    }
+
+    public IActionResult About()
+    {
+        return View();
+    }
+
+    public IActionResult Contact()
+    {
+        return View();
     }
 
     public IActionResult Post(int Id)
